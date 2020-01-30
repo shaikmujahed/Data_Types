@@ -1,0 +1,8 @@
+def q_this(x,y):
+    result='"' +x +'"'+'-'+y
+    return result
+
+a=q_this("adding quote to string","using fuction ")
+print(a)
+b=q_this(a,"Aouther Mujahed")
+print(b)
