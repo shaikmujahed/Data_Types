@@ -1,0 +1,16 @@
+def string_finder(target,search):
+    if search in target :
+        result=target.find(search)
+        if result==0:
+            return "Biginning"
+        elif result>=len(target) - len(search):
+            return "End"
+        else:
+            return "Meddle"
+    else:
+        return "Not found"
+
+print(string_finder("Georgia Tech", "Georgia"))
+print(string_finder("Georgia Tech" , "gia"))
+print(string_finder("Georgia Tech" , "Tech"))
+print(string_finder("Georgia Tech" , "Idaho"))
