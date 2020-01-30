@@ -1,0 +1,13 @@
+def mock(string):
+    result=""
+    for i in range(len(string)):
+        current_char =string[i]
+        if i % 2==0 and not current_char == " ":
+            char_ord=ord(current_char)
+            new_ord=char_ord-32
+            new_char= chr(new_ord)
+            result+=new_char
+        else:
+            result+=current_char
+    return result
+print(mock("abcd efgh ijkl"))
