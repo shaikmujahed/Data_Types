@@ -56,3 +56,17 @@ mystring2="67890"
 print(mystring1)
 print(mystring2)
 print("In-line concatenation: "+mystring1+mystring2)
+
+
+
+# checking substring is in string using function and in operator.**
+
+def checkinstring(checkstring,searchstring):
+    if searchstring in checkstring:
+        print(searchstring +  " Was found!")
+    else:
+        print(searchstring  +  " Was not found!")
+
+mystring="ABCDE"
+checkinstring(mystring, "BC")
+checkinstring(mystring, "GH")
