@@ -5,6 +5,22 @@ print(mystring[1])
 mystring="12345"
 print(mystring)
 
+x="ABCDE"
+mysub_x=""
+
+
+for i in range(0,3):
+    mysub_x +=x[i]
+print("First three character: " +mysub_x)
+
+
+myString="ABCDEABCDEABCDE"
+print(myString.find("CDE"))
+print(myString.find("CDE",5))
+print(myString.find("CDE",13))
+print(myString.find("CDE",4,10))
+print(myString.find("CDE",3,6))
+
 
 mystring1='"12345"'
 print(mystring1)
