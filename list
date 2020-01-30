@@ -1,0 +1,11 @@
+mylist=["one","two","three"]
+print("mylist before additem: ",mylist)
+additem(mylist)
+print("mylist after additem: ",mylist )
+
+
+myList1=["one","two","three"]
+myList2=myList1
+myList1.append("four")
+print("myList1: ",myList1)
+print("myList: ",myList2)
