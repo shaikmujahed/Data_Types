@@ -1,0 +1,38 @@
+mystring="12345"
+print(mystring)
+
+
+mystring1='"12345"'
+print(mystring1)
+
+
+mystring1='"12345"'
+mystring2="'12345'"
+mystring3='''"'12345'"'''
+mystring4="'''12345'''"
+print(mystring1);print(mystring2);print(mystring3);print(mystring4)
+
+mystringwithnewline="12345\n67890"
+print(mystringwithnewline)
+
+mystring="12345\n67890\tbcde\"fghijklm\\no"
+print(mystring)
+
+
+mystring="""12345
+67890"""
+print(mystring)
+
+mystring1="12345"
+mystring2="67890"
+mystring3=mystring1+mystring2
+print("Assigment concatenation: "+mystring3)
+print("In-line concatenation: "+mystring1+mystring2)
+mystring1+=mystring2
+print("self_Assignment concatenation: "+mystring1)
+
+mystring1="12345\n"
+mystring2="67890"
+print(mystring1)
+print(mystring2)
+print("In-line concatenation: "+mystring1+mystring2)
