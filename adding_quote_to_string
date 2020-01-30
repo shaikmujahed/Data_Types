@@ -6,3 +6,12 @@ a=q_this("adding quote to string","using fuction ")
 print(a)
 b=q_this(a,"Aouther Mujahed")
 print(b)
+
+
+def quote_this(string,string1):
+    result='"' + string + '"'+'-'+string1
+    return result
+a=quote_this("This test program","Mohsin")
+print(a)
+b=quote_this(a,"Mujahed")
+print(b)
