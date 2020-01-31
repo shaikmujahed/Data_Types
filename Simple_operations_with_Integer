@@ -7,3 +7,9 @@ def addone(anInteger):
 myinteger=5
 
 
+#variable Assignments-1.py
+myint1=5
+myint2=myint1
+myint1=7
+print("myint1: ",myint1)
+print("myint2: ",myint2)
